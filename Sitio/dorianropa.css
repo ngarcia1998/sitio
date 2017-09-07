@@ -1,0 +1,110 @@
+body {
+  font-family: "Comic Sans MS", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.42857143;
+  color: 	#8B008B;
+  background-image: url(http://data.whicdn.com/images/211310792/large.jpg) ;
+  text-align: center;
+}
+
+#header {
+    margin: auto;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul,
+ol {
+    margin-top: none ;
+    margin-bottom: 10px;
+    list-style: none;
+} 
+
+.nav li a{
+    background-color: #000;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+    
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.nav li:hover > ul{
+    display: block;
+
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+p {
+  color: rosybrown;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foto1 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px dotted blueviolet;
+    float: left; 
+    width: 280px;
+}
+.foto2 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed aquamarine;
+    float: center; 
+    width: 350px;
+}
+
+.foto3 {
+    padding: 10px;
+    margin :10px;
+    border: 2px inset orange;
+    float: right;
+    width: 350px;
+}
+
+.foto4 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px dotted blueviolet;
+    float: left; 
+    width: 280px;
+}
+.foto5 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed aquamarine;
+    float: center; 
+    width: 350px;
+}
+
+.foto6 {
+    padding: 10px;
+    margin :10px;
+    border: 2px inset orange;
+    float: right;
+    width: 350px;
+}

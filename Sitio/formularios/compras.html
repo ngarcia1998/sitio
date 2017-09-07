@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+
+
+    <title>Formulario Compras </title>
+
+
+</head>
+
+<body>
+    <h1 align="center">Registro de Compras</h1>
+    <form action="compras.php" method="POST">
+        <fieldset>
+            <p>
+                <label>Fecha:</label>
+                <input type="text" name="fecha">
+            </p>
+            <p>
+                <label>Nombre del producto:</label>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label>Precio de compra:</label>
+                <input type="text" name="precioc">
+                <label>Precio de venta:</label>
+                <input type="text" name="preciov">
+                <label>Cantidad</label>
+                <input type="text" name="cantidad">
+            </p>
+            <p>
+                <label>Subtotal:</label>
+                <input type="text" name="sub">
+                <label>Total:</label>
+                <input type="text" name="total">
+            </p>
+
+            <input type="submit" value="Enviar" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
